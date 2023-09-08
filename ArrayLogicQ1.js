@@ -9,7 +9,9 @@
 // })
 
 // console.log(x);
+// expected output: => [[1,1,1,1],[2,2,2], 4,5,10,[20,20], 391, 392,591]
 const myArray = [1, 2, 4, 591, 392, 391, 2, 5, 10, 2, 1, 1, 1, 20, 20, 18 , 18, 18, 18, 22, 21, 22];
+
 
 const sortedArray = (listItems) => {
     listItems.sort((value1, value2) => value1 - value2);
